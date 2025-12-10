@@ -16,8 +16,8 @@
 // ============================================================
 
 const SUPABASE_CONFIG = {
-    url: 'YOUR_SUPABASE_URL',        // 👈 GANTI INI! Format: https://xxxxx.supabase.co
-    anonKey: 'YOUR_SUPABASE_ANON_KEY' // 👈 GANTI INI! Key yang panjang dari Supabase
+    url: https://rqxcehbxysblqyscxtyq.supabase.co       // 👈 GANTI INI! Format: https://xxxxx.supabase.co
+    anonKey: sb_publishable_oNQ43ekOFZoh43eSPgfqpg_T1vaOzS- // 👈 GANTI INI! Key yang panjang dari Supabase
 };
 
 // Inisialisasi Supabase Client
@@ -52,3 +52,4 @@ function formatSupabaseError(error) {
     }
     return 'Terjadi kesalahan pada database';
 }
+
